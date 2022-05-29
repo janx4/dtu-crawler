@@ -38,12 +38,12 @@ exports.ALL_COURSES_FILE_NAME = 'allCourses.json';
 exports.ALL_SUBJECTS_FILE_NAME = 'allSubjects.json';
 ```
 
--   In the `urls.js`, we have some config abou URL we are gonna request to fetch data. Importantly, `SEMESTER_ID` is the id of the semester of `DTU`.
+-   In the `urls.js`, we have some config about URL we are gonna request to fetch data. Importantly, `SEMESTER_ID` is the id of the semester of `DTU`.
 
 - By default, the `SEMESTER_ID` is 77 (equals **`the summer semester in 2022`**).
 
 ```js
-let SEMESTER_ID = 76;
+let SEMESTER_ID = 77;
 const URL_ALL_COURSES = `http://courses.duytan.edu.vn/Modules/academicprogram/ajax/LoadCourses.aspx?t=1646885465830`;
 
 function getSubjectUrl(courseAlias = 'ACC', semesterId) {
