@@ -20,7 +20,9 @@
 
 ### 2. Run `npm start` and type the semester id you want to crawl from it.
 
-### 3. Wait and enjoy it :)
+### 3. Wait and check the ***data*** folder.
+
+### 4. Enjoy it!
 
 ---
 
